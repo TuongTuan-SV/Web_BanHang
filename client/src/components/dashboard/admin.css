@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Prompt:wght@600&display=swap');
+
+* {
+    padding: 0 ;
+    box-sizing: border-box ;
+    margin: 0 ;
+    font-family: 'Prompt', sans-serif ;
+    -webkit-font-smoothing: antialiased ;
+    -moz-osx-font-smoothing: grayscale ;
+}
+.admin_page{
+    margin: 0 auto ;
+    box-shadow: 0 0 35px #eee ;
+    background-color: rgb(252 252 254);
+}
+/*======================= SideBar ===========================*/
+@import url('./SideBar/sidebar.css');
+
+/*======================= DashBoard ===========================*/
+@import url('./dashboard/dashboard.css');
+
+/*======================= User ===========================*/
+
+@import url('./user/user.css');
+
+/*======================= Oder ===========================*/
+
+@import url('./order/order.css');
+
+/*======================= Category ===========================*/
+
+@import url('./category/category.css');
+
+/*======================= Product ===========================*/
+@import url('./product/product.css');
+
+/*======================= Product Filter ===========================*/
+@import url('./product/filter/filter.css');
+
+/*======================= Create Product ===========================*/
+@import url('./product/createProduct/createproduct.css');

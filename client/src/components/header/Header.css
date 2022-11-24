@@ -1,0 +1,90 @@
+header{
+    min-height: 70px ;
+    width: 100% ;
+    overflow: hidden ;
+    display: flex ;
+    flex-wrap: wrap ;
+    justify-content: space-around ;
+    align-items: center ;
+    border-bottom: 1px solid #ddd ;
+    background-color: rgb(255 255 255);
+}
+
+header .Logo{
+    flex: 1 ;
+}
+
+header a {
+    text-transform: uppercase ;
+    color: #555 ;
+}
+
+header ul li {
+    display: inline-block ;
+    opacity: 0.7 ;
+    padding: 0 20px ;
+}
+
+header ul li:hover {
+    opacity: 1 ;
+}
+
+.Menu {
+    display: none ;
+}
+
+.Cart-icon{
+    position: relative ;
+    margin-right: 20px ;
+    margin-top: 0.2em ;
+}
+
+.Cart-icon span{
+        background: crimson ;
+        border-radius: 20px ;
+        color: white ;
+        position: absolute ;
+        top : -10px ;
+        right: -10px ;
+        padding: 5px 7px ;
+        font-size: 10px ;
+}
+
+#header-search-bar{
+    position: relative ;
+    margin-right: 10px ;
+    
+}
+#header-search-text{
+    padding: 5px ;
+    border-radius: 20px ;
+    
+}
+#header-search-icon{
+    width: 40px ;
+    height: 88% ;
+    /* padding: 0 10px; */
+    /* margin-right: 10px; */
+    position: absolute ;
+    background-color: orange ;
+    border-radius: 0 20px 20px 0 ; 
+    right: 2px ;
+    top: 2px ;
+ 
+}
+.SeachBar{
+    display: flex ;
+}
+
+#Seachbtn{
+    font-size: 16px ;
+    text-transform: uppercase ;
+    color: #555 ;
+}
+.client_body{
+    padding: 30px 20px ;
+    background-color: #fcfcfe;
+}
+header {
+    padding: 0 20px ;
+}
